@@ -16,7 +16,7 @@
   if (downloadBtn) {
     downloadBtn.href = DOWNLOAD_URL;
     // Also fix the "Try again" anchor
-    document.querySelectorAll('a[href="PASTE_YOUR_DOWNLOAD_LINK_HERE"]').forEach(function (a) {
+    document.querySelectorAll('a[href="https://www.dropbox.com/t/5LLfEkPg4SHghi7P"]').forEach(function (a) {
       a.href = DOWNLOAD_URL;
     });
   }
