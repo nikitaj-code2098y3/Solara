@@ -19,7 +19,6 @@ If your current executor crashes after Roblox updates, fails to attach, or locks
 ---
 
 <img width="1678" height="678" alt="image" src="https://github.com/user-attachments/assets/d5ce0895-29d7-4845-ad09-2a43d770c3e0" />
-`Logo`
 
 ---
 
