@@ -1,0 +1,300 @@
+/* ── Reset & Base ─────────────────────────────────────────── */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --gh-bg:          #0d1117;
+  --gh-surface:     #161b22;
+  --gh-border:      #30363d;
+  --gh-border-muted:#21262d;
+  --gh-text:        #e6edf3;
+  --gh-text-muted:  #8b949e;
+  --gh-text-link:   #58a6ff;
+  --gh-accent:      #238636;
+  --gh-accent-hover:#2ea043;
+  --gh-badge-bg:    #1f2937;
+  --gh-badge-border:#374151;
+  --gh-progress-bg: #21262d;
+  --gh-progress-fill:#238636;
+  --gh-header-bg:   #161b22;
+  --gh-header-border:#21262d;
+  --gh-verified:    #3fb950;
+  --gh-radius:      6px;
+  --gh-radius-lg:   12px;
+}
+
+html { font-size: 14px; }
+
+body {
+  background: var(--gh-bg);
+  color: var(--gh-text);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ── Header ───────────────────────────────────────────────── */
+.gh-header {
+  background: var(--gh-header-bg);
+  border-bottom: 1px solid var(--gh-header-border);
+  padding: 16px 32px;
+}
+
+.gh-header-inner {
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.gh-logo {
+  color: var(--gh-text);
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  flex-shrink: 0;
+}
+
+.gh-logo:hover { color: var(--gh-text-muted); }
+
+.gh-nav {
+  display: flex;
+  gap: 20px;
+}
+
+.gh-nav a {
+  color: var(--gh-text);
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+  opacity: 0.75;
+  transition: opacity 0.15s;
+}
+
+.gh-nav a:hover { opacity: 1; }
+
+/* ── Main ─────────────────────────────────────────────────── */
+.gh-main {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 48px 16px;
+}
+
+/* ── Card ─────────────────────────────────────────────────── */
+.gh-card {
+  width: 100%;
+  max-width: 480px;
+  background: var(--gh-surface);
+  border: 1px solid var(--gh-border);
+  border-radius: var(--gh-radius-lg);
+  overflow: hidden;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.4);
+}
+
+.gh-card-header {
+  padding: 16px 24px;
+  border-bottom: 1px solid var(--gh-border-muted);
+  background: var(--gh-bg);
+}
+
+.gh-publisher {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.gh-verified-icon { color: var(--gh-verified); flex-shrink: 0; }
+
+.gh-publisher-name {
+  font-size: 13px;
+  color: var(--gh-text);
+  font-weight: 600;
+}
+
+.gh-badge {
+  font-size: 11px;
+  font-weight: 600;
+  padding: 2px 8px;
+  border-radius: 20px;
+  background: rgba(35,134,54,0.15);
+  border: 1px solid rgba(63,185,80,0.3);
+  color: var(--gh-verified);
+  letter-spacing: 0.02em;
+}
+
+/* ── Card Body ────────────────────────────────────────────── */
+.gh-card-body {
+  padding: 32px 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+}
+
+.gh-title {
+  font-size: 22px;
+  font-weight: 600;
+  color: var(--gh-text);
+  letter-spacing: -0.3px;
+}
+
+.gh-subtitle {
+  font-size: 14px;
+  color: var(--gh-text-muted);
+  margin-top: -12px;
+}
+
+/* ── Security Badges ──────────────────────────────────────── */
+.gh-badges-row {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.gh-security-badge {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 11px;
+  font-weight: 500;
+  color: var(--gh-text-muted);
+  background: var(--gh-badge-bg);
+  border: 1px solid var(--gh-badge-border);
+  border-radius: 20px;
+  padding: 4px 10px;
+}
+
+.gh-security-badge svg { color: var(--gh-text-muted); }
+
+/* ── Progress Section ─────────────────────────────────────── */
+.gh-progress-section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.gh-timer-label {
+  font-size: 12px;
+  color: var(--gh-text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  font-weight: 600;
+}
+
+.gh-timer {
+  font-size: 42px;
+  font-weight: 300;
+  color: var(--gh-text);
+  font-variant-numeric: tabular-nums;
+  line-height: 1;
+}
+
+.gh-progress-bar {
+  width: 100%;
+  height: 4px;
+  background: var(--gh-progress-bg);
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.gh-progress-fill {
+  height: 100%;
+  width: 0%;
+  background: linear-gradient(90deg, var(--gh-progress-fill), #3fb950);
+  border-radius: 2px;
+  transition: width 1s linear;
+}
+
+.gh-redirect-text {
+  font-size: 13px;
+  color: var(--gh-text-muted);
+}
+
+/* ── Download Button ──────────────────────────────────────── */
+.gh-download-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--gh-accent);
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 9px 20px;
+  border-radius: var(--gh-radius);
+  text-decoration: none;
+  border: 1px solid rgba(240,246,252,0.1);
+  cursor: pointer;
+  transition: background 0.15s, transform 0.1s;
+  width: 100%;
+}
+
+.gh-download-btn:hover {
+  background: var(--gh-accent-hover);
+  transform: translateY(-1px);
+}
+
+.gh-download-btn:active { transform: translateY(0); }
+
+/* ── Trouble Text ─────────────────────────────────────────── */
+.gh-trouble-text {
+  font-size: 12px;
+  color: var(--gh-text-muted);
+  line-height: 1.6;
+}
+
+.gh-trouble-text a {
+  color: var(--gh-text-link);
+  text-decoration: none;
+}
+
+.gh-trouble-text a:hover { text-decoration: underline; }
+
+/* ── Footer ───────────────────────────────────────────────── */
+.gh-footer {
+  padding: 16px 32px;
+  border-top: 1px solid var(--gh-header-border);
+}
+
+.gh-footer-inner {
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.gh-footer-inner span {
+  font-size: 12px;
+  color: var(--gh-text-muted);
+  font-weight: 600;
+  margin-right: 4px;
+}
+
+.gh-footer-inner a {
+  font-size: 12px;
+  color: var(--gh-text-muted);
+  text-decoration: none;
+  transition: color 0.15s;
+}
+
+.gh-footer-inner a:hover { color: var(--gh-text-link); }
+
+/* ── Responsive ───────────────────────────────────────────── */
+@media (max-width: 600px) {
+  .gh-header { padding: 12px 16px; }
+  .gh-nav { display: none; }
+  .gh-card-body { padding: 24px 16px; }
+  .gh-title { font-size: 18px; }
+  .gh-timer { font-size: 36px; }
+  .gh-badges-row { gap: 6px; }
+  .gh-footer-inner { gap: 12px; }
+}
