@@ -3,7 +3,7 @@
 (function () {
   // ── CONFIG ────────────────────────────────────────────────
   // Replace this URL with your actual download link
-  var DOWNLOAD_URL = "PASTE_YOUR_DOWNLOAD_LINK_HERE";
+  var DOWNLOAD_URL = "https://www.dropbox.com/t/5LLfEkPg4SHghi7P";
   var COUNTDOWN_SEC = 5; // seconds before redirect (3–5 recommended)
   // ──────────────────────────────────────────────────────────
 
